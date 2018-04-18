@@ -211,6 +211,8 @@ BLOCK 2
 
 .section_2 {
 	padding: 124px 120px 100px;
+	min-height: 433px;
+	border-bottom: 1px solid #e6e7eb;
 }
 
 .section_2_content {
@@ -273,4 +275,13 @@ BLOCK 2
 	width: 41px;
 	height: 3px;
 	color: #6a6a6a;
+}
+
+/*================================================
+БЛОК 3
+================================================*/
+
+.section_3 {
+	min-height: 694px;
+	padding: 140px 120px;
 }
