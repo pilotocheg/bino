@@ -8,6 +8,7 @@ body {
 	font-size: 0;
 	margin: 0;
 	min-width: 980px;
+	overflow-x: hidden;
 }
 
 .section_1 {
@@ -157,6 +158,7 @@ h1 {
 	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
 	background: transparent;
 	border: 1px solid #ffffff;
+	border-radius: 3px;
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: 700;
@@ -284,4 +286,42 @@ BLOCK 2
 .section_3 {
 	min-height: 694px;
 	padding: 140px 120px;
+}
+
+.section_3 img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 77px;
+}
+
+.section_3_content {
+	width: calc(100% - 583px);
+	min-height: 407px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.section_3_content h2 {
+	color: #6a6a6a;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	line-height: 1.03em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	margin: 0 0 46px 0;
+	padding-left: 29px;
+	border-left: 6px solid #e74c3c;
+}
+
+.section_3_content p {
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+}
+
+.p_with_margin {
+	margin-top: 24px;
 }
