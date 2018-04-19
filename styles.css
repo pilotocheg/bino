@@ -230,12 +230,10 @@ BLOCK 2
 .section_2_content:hover .rotate_icon {
 	transform: rotate(45deg);
 	border-color: #e74c3c;
-	transition: transform .4s ease-out;
 }
 
 .section_2_content:hover h3{
 	color: #e74c3c;
-	transition: color .4s ease-out;
 }
 
 .square4 {
@@ -248,6 +246,7 @@ BLOCK 2
 	border: 1px solid rgba(153, 153, 153, 0.25);
 	margin: 0 auto;
 	margin-bottom: 30px;
+	transition: transform .4s ease-out;
 }
 
 .section_2_content img {
@@ -263,6 +262,7 @@ BLOCK 2
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1.35px;
+	transition: color .4s ease-out;
 }
 
 .section_2_content p {
