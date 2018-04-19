@@ -8,6 +8,7 @@ body {
 	font-size: 0;
 	margin: 0;
 	min-width: 980px;
+	/*max-width: 1920px;*/
 	overflow-x: hidden;
 }
 
@@ -324,4 +325,37 @@ BLOCK 2
 
 .p_with_margin {
 	margin-top: 24px;
+}
+
+/*===========================================
+БЛОК 4
+===========================================*/
+
+.section_4 {
+	/*padding: 0 120px;*/
+}
+
+.section_4_content {
+	height: 768px;
+}
+
+.section_4_left {
+	height: 100%;
+	width: 54%;
+	display: inline-block;
+	background: #202020;
+	position: relative;
+	padding: 150px 81px 140px 50px;
+	vertical-align: middle;
+}
+
+.section_4_right {
+	height: 100%;
+	width: 46%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(./img/planshet.png);
+	background-position: center;
+	background-size: cover;
+
 }
