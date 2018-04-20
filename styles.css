@@ -336,7 +336,7 @@ BLOCK 2
 }
 
 .section_4_content {
-	height: 768px;
+	min-height: 768px;
 }
 
 .section_4_left {
@@ -345,17 +345,110 @@ BLOCK 2
 	display: inline-block;
 	background: #202020;
 	position: relative;
-	padding: 150px 81px 140px 50px;
+	padding: 150px 81px 130px 100px;
 	vertical-align: middle;
+	text-align: right;
 }
 
 .section_4_right {
-	height: 100%;
+	height: 768px;
 	width: 46%;
 	display: inline-block;
 	vertical-align: middle;
 	background-image: url(./img/planshet.png);
 	background-position: center;
 	background-size: cover;
+}
 
+.lines {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+}
+
+.line {
+	height: 34px;
+	width: 2px;
+	background: #999999;
+	opacity: 0.25;
+}
+
+.line.middle {
+	margin: 11px 0px;
+	transform: scaleX(1.2);
+	background: #e74c3c;
+	opacity: 1;
+}
+
+
+.section_4_left h2 {
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	padding-right: 30px;
+	line-height: 1.03em;
+	margin: 0px;
+	border-right: 6px solid #e74c3c;
+}
+
+.text_container {
+	text-align: right;
+	max-width: 563px;
+	min-height: 80px;
+	margin-left: auto;
+	margin-top: 65px;
+	position: relative;
+}
+
+.text_container button {
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -116px;
+	border: none;
+	padding: 4px;
+}
+
+.button_inner {
+	width: 64px;
+	height: 64px;
+	background: #f4f5f9;
+	border-radius: 50%;
+}
+
+.button_inner img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.text_container.container2 {
+	max-width: 450px;
+}
+
+.section_4_left h3 {
+	color: #e74c3c;
+	font-family: "Open Sans - Semibold";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.section_4_left p {
+	color: #999999;
+	font-family: "Source Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
 }
