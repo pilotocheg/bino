@@ -33,14 +33,14 @@ body {
 }
 
 .section_1::before {
-	border-bottom: 120px solid #fff;
-	border-right: 960px solid transparent;
+	border-bottom: 250px solid #fff;
+	border-right: 2200px solid transparent;
 	right: 50%;
 }
 
 .section_1::after {
-	border-bottom: 120px solid #fff;
-	border-left: 960px solid transparent;
+	border-bottom: 250px solid #fff;
+	border-left: 2200px solid transparent;
 	left: 50%;
 }
 
@@ -168,17 +168,21 @@ h1 {
 	letter-spacing: -0.24px;
 	text-align: center;
 	cursor: pointer;
-	transition: opacity .3s;
 }
 
-.main_button:hover {
-	opacity: 0.7;
+.m_primary:hover {
+	border: 1px solid #ffffff;
 }
 
 .m_primary {
 	background-color: #e74c3c;
 	border: none;
 	margin-right: 30px;
+}
+
+.m_secondary:hover {
+	background-color: #e74c3c;
+	border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .anchor_btn {
@@ -192,6 +196,12 @@ h1 {
 	padding: 5px;
 	border: none;
 	z-index: 1;
+	cursor: pointer;
+	transition: background .3s;
+}
+
+.anchor_btn:hover {
+	background: rgba(231, 76, 60, 1);
 }
 
 .anchor_inner {
