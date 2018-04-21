@@ -333,31 +333,30 @@ BLOCK 2
 
 .section_4 {
 	/*padding: 0 120px;*/
+	min-height: 768px;
+	display: table;
+	width: 100%;
 }
 
-.section_4_content {
-	min-height: 768px;
-}
 
 .section_4_left {
-	height: 100%;
 	width: 54%;
-	display: inline-block;
+	display: table-cell;
 	background: #202020;
 	position: relative;
-	padding: 150px 81px 130px 100px;
+	padding: 150px 81px 130px 120px;
 	vertical-align: middle;
 	text-align: right;
 }
 
 .section_4_right {
-	height: 768px;
 	width: 46%;
-	display: inline-block;
+	display: table-cell;
 	vertical-align: middle;
 	background-image: url(./img/planshet.png);
 	background-position: center;
 	background-size: cover;
+	padding-right: 120px;
 }
 
 .lines {
