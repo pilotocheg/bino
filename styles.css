@@ -467,6 +467,32 @@ BLOCK 2
 
 .section_5 {
 	padding-top: 140px;
+	text-align: center;
+}
+
+.section_5 h2 {
+	color: #6a6a6a;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	margin-top: 0;
+	line-height: 1em;
+}
+
+.subtitle {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1em;
+}
+
+.section_5_content {
+	margin-top: 50px;
+	text-align: left;
 }
 
 .section_5_pic {
@@ -515,4 +541,34 @@ BLOCK 2
 	font-weight: 400;
 	letter-spacing: 0.7px;
 	margin: 0;
+}
+
+.style_circle.second {
+	margin-top: 36px;
+	display: inline-block;
+}
+
+.section_5_nav {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 68px;
+}
+
+.section_5_nav a {
+	text-decoration: none;
+	color: #999999;
+	margin: 0 20px;
+}
+
+#checked_link {
+	color: #e64b3c;
+	font-weight: 700;
+}
+
+.section_5_nav a:hover {
+	color: #e64b3c;
+	font-weight: 700;
 }
