@@ -585,3 +585,140 @@ BLOCK 2
 	color: #e64b3c;
 	font-weight: 700;
 }
+
+/*=============================================
+БЛОК 6
+=============================================*/
+
+.section_6 {
+	min-height: 1186px;
+	padding: 150px 120px 0;
+	text-align: center;
+	background-color: #f4f5f9;
+}
+
+.section_6 h2 {
+	color: #6a6a6a;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 3.6px;
+	margin-top: 0;
+}
+
+.section_6 p {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 28px 0;
+}
+
+.style_circle.third {
+	margin: 0;
+}
+
+.section_6_content {
+	margin-top: 67px;
+}
+
+.section_6_slider {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 505px);
+	min-height: 629px;
+	z-index: 3;
+	background-color: #ffffff;
+	margin-right: -80px;
+	position: relative;
+	text-align: center;
+	padding: 80px 61px 40px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.slider_romb {
+	width: 127px;
+	height: 127px;
+	background: url(./img/romb.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto 54px;
+	position: relative;
+}
+
+.slider_romb img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.section_6_slider h3 {
+	color: #6a6a6a;
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1.35px;
+	line-height: 1em;
+}
+
+.slider_line {
+	width: 41px;
+	height: 2px;
+	background-color: #6a6a6a;
+	margin: 29px auto 22px;
+	opacity: 0.8;
+}
+
+.section_6_slider p {
+	color: #999999;
+	font-family: Source Sans Pro;
+	font-size: 14px;
+	/*font-weight: bold;*/
+	line-height: 24px;
+	letter-spacing: 1.05px;
+	margin-bottom: 43px;
+}
+
+.section_6_slider button {
+	padding: 18px 38px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	line-height: 1em;
+	font-weight: 400;
+	letter-spacing: 0.14px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #e74c3c;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 53px;
+}
+
+.comp-img {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 1;
+	position: relative;
+}
+
+.radiob {
+	display: none;
+}
+
+.label_for_radio {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #f4f5f9;
+	margin: 0 4px;
+	display: inline-block;
+}
+
+.radiob:checked + .label_for_radio {
+	background-color: #e74c3c;
+}
