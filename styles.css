@@ -445,7 +445,7 @@ BLOCK 2
 
 .section_4_left h3 {
 	color: #e74c3c;
-	font-family: "Open Sans - Semibold";
+	font-family: Open Sans;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 29px;
@@ -514,8 +514,13 @@ BLOCK 2
 	position: absolute;
 	z-index: 2;
 	background: rgba(231, 76, 60, 0.8);
-	padding: 50px;
 	top: 0;
+	opacity: 0;
+	transition: opacity .5s ease-out;
+}
+
+.pic5-hover:hover {
+	opacity: 1;
 }
 
 .pic5-line {
@@ -526,21 +531,29 @@ BLOCK 2
 
 .pic5-hover h3 {
 	color: #ffffff;
-	font-family: "Source Sans Pro - Semibold";
+	font-family: Source Sans Pro;
 	font-size: 24px;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
 	margin: 31px 0 21px;
+	line-height: 1em;
 }
 
 .pic5-hover p {
 	color: #ffffff;
-	font-family: "Open Sans";
+	font-family: Open Sans;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0.7px;
 	margin: 0;
+	line-height: 1em;
+}
+
+.text_to_bottom {
+	position: absolute;
+	margin: 50px;
+	bottom: 0;
 }
 
 .style_circle.second {
