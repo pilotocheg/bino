@@ -722,3 +722,67 @@ BLOCK 2
 .radiob:checked + .label_for_radio {
 	background-color: #e74c3c;
 }
+
+/*=========================================
+БЛОК 7
+=========================================*/
+
+.section_7 {
+	min-height: 511px;
+	text-align: center;
+	background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('./img/back-7.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 157px 100px 100px;
+}
+
+.sec7_container {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	/*width: 164px;*/
+	width: calc((100% - 85px * 4) / 5);
+	margin-right: 85px;
+}
+
+.div7_with_icon {
+	height: 111px;
+	width: 111px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.div7_with_icon img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.sec7_container:nth-child(5) {
+	margin-right: 0;
+}
+
+.number {
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	line-height: 1em;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin: 49px 0 10px;
+}
+
+.number_subtitle {
+	color: #f4f5f9;
+	font-family: "Source Sans Pro";
+	line-height: 1em;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.9px;
+	opacity: 0.8;
+	margin: 0;
+}
