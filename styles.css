@@ -796,3 +796,22 @@ BLOCK 2
 	opacity: 0.8;
 	margin: 0;
 }
+
+/*=============================================
+БЛОК 8
+=============================================*/
+
+.section_8 {
+	min-height: 1077px;
+	padding: 156px 100px 100px;
+	text-align: center;
+}
+
+.section_8 h2 {
+	color: #6a6a6a;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	letter-spacing: 3.6px;
+	margin: 0;
+	line-height: 1em;
+}
