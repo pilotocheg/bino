@@ -717,6 +717,7 @@ BLOCK 2
 	background-color: #f4f5f9;
 	margin: 0 4px;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .radiob:checked + .label_for_radio {
@@ -741,9 +742,16 @@ BLOCK 2
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	/*width: 164px;*/
 	width: calc((100% - 85px * 4) / 5);
 	margin-right: 85px;
+}
+
+.sec7_container:hover .div7_with_icon {
+	background: #e74c3c;
+}
+
+.sec7_container:hover .number {
+	color: #e74c3c;
 }
 
 .div7_with_icon {
@@ -753,6 +761,7 @@ BLOCK 2
 	border-radius: 50%;
 	position: relative;
 	margin: 0 auto;
+	transition: background .3s;
 }
 
 .div7_with_icon img {
@@ -774,6 +783,7 @@ BLOCK 2
 	font-weight: 700;
 	letter-spacing: 1.5px;
 	margin: 49px 0 10px;
+	transition: color .3s;
 }
 
 .number_subtitle {
