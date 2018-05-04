@@ -944,3 +944,62 @@ BLOCK 2
 .price_plan:hover .inner_p span {
 	color: #e74c3c;
 }
+
+/*===========================================================
+БЛОК 9
+===========================================================*/
+
+.section_9 {
+	min-height: 744px;
+	padding: 150px 0 100px;
+	background: linear-gradient(to right, rgba(32, 32, 32, 0.75), rgba(32, 32, 32, 0.75)), url('./img/back_for_9.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.red-wave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.section_9 h2 {
+	color: #ffffff;
+	font-family: "Source Sans Pro";
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 3.6px;
+	line-height: 1em;
+	margin: 0;
+}
+
+.sec9_subtitle {
+	color: #f4f5f9;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1em;
+	opacity: 0.8;
+	margin: 29px 0 0;
+}
+
+.style_circle.five {
+	margin-top: 28px;
+}
+
+.style_circle.five::before,
+.style_circle.five::after {
+	opacity: 0.6;
+	height: 1px;
+}
+
+.foto {
+	border: 3px solid #e74c3c;
+	border-radius: 50%;
+}
