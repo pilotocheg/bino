@@ -962,14 +962,16 @@ BLOCK 2
 	position: relative;
 	z-index: 1;
 	min-height: 744px;
-	padding: 150px 0 100px;
+	padding: 150px 0 50px;
 }
 
 .red-wave {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 50%;
+	transform: translateX(-50%);
 	width: 100%;
+	min-width: 2000px;
 	height: calc(100% - 92px);
 	z-index: 0;
 	margin-top: 92px;
@@ -1005,45 +1007,116 @@ BLOCK 2
 	height: 1px;
 }
 
-.foto_div {
+.foto_container {
 	position: absolute;
-	/*border-radius: 50%;*/
+	text-align: center;
 }
 
-.foto_div.foto1 {
-	top: 58%;
-	left: 0;
+.foto_container.foto1 {
+	top: 59%;
+	left: 28px;
+	transform: translateX(-50%);
 }
-.foto_div.foto2{
-	top: calc(53% - 2px);
-	left: calc(25% - 28px);
-}
-.foto_div.foto3 {
-	top: 52%;
-	left: calc(50% - 29px);
-}
-.foto_div.foto4{
-	top: calc(57% + 2px);
-	right: calc(25% - 28px);
-}
-.foto_div.foto5 {
+.foto_container.foto2{
 	top: 53%;
-	right: 0;
+	left: 25%;
+	transform: translateX(-50%);
+}
+.foto_container.foto3 {
+	top: 52%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.foto_container.foto4{
+	top: calc(57% + 2px);
+	right: 25%;
+	transform: translateX(50%);
+}
+.foto_container.foto5 {
+	top: 52%;
+	right: 28px;
+	transform: translateX(50%);
+}
+
+.foto_div {
+	position: relative;
+	z-index: 3;
+	transition: transform .3s ease-out;
+	/*padding: 3px;*/
+	border-radius: 50%;
+	background: #e74c3c;
+	width: 56px;
+	height: 56px;
+	margin: 0 auto;
 }
 
 .foto {
-	border: 3px solid #e74c3c;
 	border-radius: 50%;
-	position: relative;
-	z-index: 2;
-	margin-top: -56px;
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .foto_hover {
-	background: rgba(231, 76, 60, 0);
-	position: relative;
-	width: 57px;
-	height: 56px;
+	background: rgba(231, 76, 60, 0.5);
+	position: absolute;
+	width: 50px;
+	height: 50px;
 	border-radius: 50%;
-	z-index: 3;
+	z-index: 4;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.foto_div:hover {
+	transform: scale(1.5);
+	box-shadow: 0 5px 20px black;
+}
+
+.foto_div:hover .foto_hover {
+	opacity: 1;
+}
+
+.foto_div:hover + .hover_text {
+	opacity: 1;
+	transition: opacity .3s .3s ease-out;
+}
+
+.hover_text {
+	margin-top: -35px;
+	opacity: 0;
+}
+
+.vertical_line {
+	width: 1px;
+	height: 107px;
+	border: 1px solid #ffffff;
+	opacity: 0.5;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+.hover_name {
+	color: #e74c3c;
+	font-family: "Open Sans";
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1.8px;
+	margin: 30px 0 19px;
+	line-height: 1em;
+}
+
+.hover_subtitle {
+	color: #ffffff;
+	font-family: "Source Sans Pro";
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	line-height: 1em;
+	margin: 0;
 }
