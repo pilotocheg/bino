@@ -1120,3 +1120,20 @@ BLOCK 2
 	line-height: 1em;
 	margin: 0;
 }
+
+/*=======================================================
+BLOCK 10
+=======================================================*/
+
+.section_10 {
+	min-height: 714px;
+	text-align: center;
+	background: #f4f5f9;
+}
+
+.partner {
+	width: 210px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
