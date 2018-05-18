@@ -491,8 +491,9 @@ BLOCK 2
 }
 
 .section_5_content {
-	margin-top: 50px;
+	margin: 50px auto 0;
 	text-align: left;
+	max-width: 2000px;
 }
 
 .section_5_pic {
