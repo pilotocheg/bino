@@ -1397,6 +1397,7 @@ SECTION 12 CONTACT US
 	margin-right: 28px;
 	padding: 99px 91px 90px;
 	text-align: left;
+	border-radius: 3px;
 }
 
 .contacts h3 {
@@ -1405,7 +1406,7 @@ SECTION 12 CONTACT US
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 1em;
-	margin: 0 0 25px 0;
+	margin: 0 0 20px 0;
 }
 
 .contacts address {
@@ -1415,8 +1416,11 @@ SECTION 12 CONTACT US
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 24px;
-	margin-bottom: 67px;
 	font-style: normal;
+}
+
+.address {
+	margin-bottom: 67px;
 }
 
 .contacts a {
@@ -1429,8 +1433,8 @@ SECTION 12 CONTACT US
 	text-decoration: none;
 }
 
-.contacts a:nth-child(3) {
-	margin-bottom: 67px;
+.call {
+	margin-bottom: 60px;
 }
 
 .contacts a:hover {
@@ -1444,5 +1448,73 @@ SECTION 12 CONTACT US
 	background-color: #ffffff;
 	display: inline-block;
 	vertical-align: middle;
-	padding: 100px;
+	padding: 81px 100px;
+	text-align: left;
+	border-radius: 3px;
+}
+
+.form label {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1em;
+	margin-right: 15px;
+}
+
+.form input {
+	width: 85%;
+	background: transparent;
+	border: none;
+	outline: none;
+	height: 52px;
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 20px;
+}
+
+.form textarea {
+	width: 100%;
+	height: 96px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+	resize: none;
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 17px;
+}
+
+.form hr {
+	width: 100%;
+	height: 1px;
+	color: #999999;
+	opacity: 0.25;
+	margin-bottom: 10px;
+}
+
+#third_hr {
+	margin-bottom: 30px;
+}
+
+.form button {
+	width: 157px;
+	height: 44px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	background-color: #e74e3e;
+	margin-top: 30px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.form button:hover {
+	transform: scale(1.05);
+	border-radius: 3px;
 }
