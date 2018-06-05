@@ -7,18 +7,18 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-	<section class="section_1">
+	<section class="section_1" id="home">
 		<div class="m_width">
 			<header>
 				<img class="logo" src="./img/logo.png">
 				<div class="nav">
-					<a class="nav_link" href="">HOME</a>
-					<a class="nav_link" href="">ABOUT US</a>
-					<a class="nav_link" href="">PORTFOLIO</a>
-					<a class="nav_link" href="">PRICING</a>
-					<a class="nav_link" href="">TEAM</a>
-					<a class="nav_link" href="">BLOG</a>
-					<a class="nav_link" href="">CONTACT</a>
+					<a class="nav_link" href="#home">HOME</a>
+					<a class="nav_link" href="#about_us">ABOUT US</a>
+					<a class="nav_link" href="#portfolio">PORTFOLIO</a>
+					<a class="nav_link" href="#pricing">PRICING</a>
+					<a class="nav_link" href="#team">TEAM</a>
+					<a class="nav_link" href="#blog">BLOG</a>
+					<a class="nav_link" href="#contact">CONTACT</a>
 				</div>
 			</header>
 			<div class="section_content">
@@ -80,7 +80,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section_3">
+	<section class="section_3" id="about_us">
 		<div class="m_width">
 			<img src="./img/monitor.png">
 			<div class="section_3_content">
@@ -129,7 +129,7 @@
 			</div>
 			<div class="section_4_right"></div>
 	</section>
-	<section class="section_5">
+	<section class="section_5" id="portfolio">
 		<h2>RECENT WORKS</h2>
 		<p class="subtitle">It has survived not only five centuries, but also the leap scrambled it to make a type.</p>
 		<div class="style_circle second"></div> 
@@ -289,7 +289,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section_8">
+	<section class="section_8" id="pricing">
 		<div class="m_width">
 			<h2>OUR PRICING</h2>
 			<p class="sec8_subtitle">A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.</p>
@@ -361,7 +361,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section_9">
+	<section class="section_9" id="team">
 		<img src="./img/red-wave.png" class="red-wave">
 		<div class="m_width sec9">
 			<h2>OUR TEAM</h2>
@@ -465,56 +465,52 @@
 			</div>
 		</div>
 	</section>
-	<section class="section_11">
+	<section class="section_11" id="blog">
 		<h2>OUR BLOG</h2>
 		<p class="sec11_subtitle">Suspendisse sed eros mollis, tincidunt felis eget, interdum eratullam sit amet odio.</p>
 		<div class="style_circle seven"></div>
-		<div class="blog_container">
-			<div class="blog_row">
-				<div class="blog photo">
-					<img src="./img/blog1.png">
-				</div>
-				<div class="blog text top">
+		<table cellspacing="0" cellpadding="0" class="blog_container">
+			<tr class="blog_row">
+				<td class="blog photo first">
+				</td>
+				<td class="blog text top">
 					<span>art / t-shirt</span>
 					<h3>T-SHIRT DESIGN</h3>
 					<div class="blog_hr"></div>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
 					<a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-				</div>
-				<div class="blog photo">
-					<img src="./img/blog2.png">
-				</div>
-				<div class="blog text top">
+				</td>
+				<td class="blog photo second">
+				</td>
+				<td class="blog text top">
 					<span>art / t-shirt</span>
 					<h3>T-SHIRT DESIGN</h3>
 					<div class="blog_hr"></div>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
 					<a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-				</div>
-			</div>
-			<div class="blog_row">
-				<div class="blog text bottom">
+				</td>
+			</tr>
+			<tr class="blog_row">
+				<td class="blog text bottom">
 					<span>art / t-shirt</span>
 					<h3>T-SHIRT DESIGN</h3>
 					<div class="blog_hr"></div>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
 					<a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-				</div>
-				<div class="blog photo">
-					<img src="./img/blog3.png">
-				</div>
-				<div class="blog text bottom">
+				</td>
+				<td class="blog photo third">
+				</td>
+				<td class="blog text bottom">
 					<span>art / t-shirt</span>
 					<h3>T-SHIRT DESIGN</h3>
 					<div class="blog_hr"></div>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
 					<a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-				</div>
-				<div class="blog photo">
-					<img src="./img/blog4.png">
-				</div>
-			</div>
-		</div>
+				</td>
+				<td class="blog photo fourth">
+				</td>
+			</tr>
+		</table>
 	</section>
 </body>
 </html>

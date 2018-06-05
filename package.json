@@ -1,0 +1,19 @@
+{
+  "name": "bino",
+  "version": "1.0.0",
+  "description": "BINO\r Dmitriev Vycheslav\r 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilotocheg/bino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilotocheg/bino/issues"
+  },
+  "homepage": "https://github.com/pilotocheg/bino#readme"
+}
