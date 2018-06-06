@@ -1468,7 +1468,7 @@ SECTION 12 CONTACT US
 	border: none;
 	outline: none;
 	height: 52px;
-	color: #999999;
+	color: #6a6a6a;
 	font-family: "Open Sans";
 	font-size: 20px;
 }
@@ -1481,7 +1481,7 @@ SECTION 12 CONTACT US
 	outline: none;
 	border-bottom: 1px solid rgba(153, 153, 153, 0.25);
 	resize: none;
-	color: #999999;
+	color: #6a6a6a;
 	font-family: "Open Sans";
 	font-size: 17px;
 }

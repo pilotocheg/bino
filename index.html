@@ -535,7 +535,7 @@
 					</div>
 				</div>
 				<form class="form">
-					<label for="name">Name</label>
+					<label for="name" id="lab1">Name</label>
 					<input type="text" name="name" id="name">
 					<hr>
 					<label for="email">Email</label>
@@ -547,6 +547,9 @@
 					<label for="textarea">Message</label>
 					<textarea id="textarea"></textarea>
 					<button>SEND MESSAGE</button>
+					<script type="text/javascript">
+						name.onfocus(() => console.log('ok'));
+					</script>
 				</form>
 			</div>
 		</div>
