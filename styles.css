@@ -1188,7 +1188,7 @@ BLOCK 10
 	box-shadow: 0 3px 9px 1px rgba(31, 31, 31, 0.3);
 }
 
-.fab {
+.partners_container .fab {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1468,7 +1468,7 @@ SECTION 12 CONTACT US
 	border: none;
 	outline: none;
 	height: 52px;
-	color: #999999;
+	color: #6a6a6a;
 	font-family: "Open Sans";
 	font-size: 20px;
 }
@@ -1481,7 +1481,7 @@ SECTION 12 CONTACT US
 	outline: none;
 	border-bottom: 1px solid rgba(153, 153, 153, 0.25);
 	resize: none;
-	color: #999999;
+	color: #6a6a6a;
 	font-family: "Open Sans";
 	font-size: 17px;
 }
@@ -1517,4 +1517,131 @@ SECTION 12 CONTACT US
 .form button:hover {
 	transform: scale(1.05);
 	border-radius: 3px;
+}
+
+/*========================================================
+SECTION 13 //GET STARTED//
+========================================================*/
+
+.section_13 {
+	min-height: 480px;
+	padding: 149px 100px 100px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/back_road.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.section_13 h2 {
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Open Sans";
+	font-size: 36px;
+	line-height: 1em;
+	margin: 0;
+}
+
+.section_13 h2 > span {
+	font-weight: 700;
+}
+
+.section_13 p {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+.section_13 button {
+	width: 225px;
+	height: 56px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+	background-color: #e74c3c;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.12px;
+	margin-top: 51px;
+}
+
+.section_13 button:hover {
+	transform: scale(1.05);
+	border-radius: 3px;
+}
+
+/*================================================
+FOOTER
+================================================*/
+
+.footer {
+	min-height: 90px;
+	background-color: #202020;
+	padding: 0 100px;
+}
+
+.social_icons {
+	display: inline-block;
+}
+
+.social_icons .fab,
+.social_icons .fas {
+	font-size: 20px;
+	color: #999999;
+	margin-right: 25px;
+	cursor: pointer;
+	line-height: 90px;
+}
+
+.social_icons .fab:hover,
+.social_icons .fas:hover {
+	text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.25);
+	color: #e74c3c;
+}
+
+footer {
+	width: 100%;
+	position: relative;
+}
+
+.footer span {
+	opacity: 0.75;
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#return_btn {
+	position: fixed;
+	right: 52px;
+	bottom: 64px;
+	width: 53px;
+	height: 53px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+	background-color: #e74c3c;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	z-index: 5;
+}
+
+#return_btn img {
+	transform: translateY(-2px);
+}
+
+#return_btn:hover {
+	border: 2px solid white;
+	border-radius: 50%;
 }
