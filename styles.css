@@ -1518,3 +1518,60 @@ SECTION 12 CONTACT US
 	transform: scale(1.05);
 	border-radius: 3px;
 }
+
+/*========================================================
+SECTION 13 //GET STARTED//
+========================================================*/
+
+.section_13 {
+	min-height: 480px;
+	padding: 149px 100px 100px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/back_road.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.section_13 h2 {
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Open Sans";
+	font-size: 36px;
+	line-height: 1em;
+	margin: 0;
+}
+
+.section_13 h2 > span {
+	font-weight: 700;
+}
+
+.section_13 p {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+.section_13 button {
+	width: 225px;
+	height: 56px;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+	background-color: #e74c3c;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.12px;
+	margin-top: 51px;
+}
+
+.section_13 button:hover {
+	transform: scale(1.05);
+	border-radius: 3px;
+}
