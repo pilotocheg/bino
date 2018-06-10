@@ -31,8 +31,12 @@
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 				</div>
 				<div class="buttons">
-					<button class="main_button m_primary">GET STARTED NOW</button>
-					<button class="main_button m_secondary">LEARN MORE</button>
+					<a href="#getStarted">
+						<button class="main_button m_primary">GET STARTED NOW</button>
+					</a>
+					<a href="#learnMore">
+						<button class="main_button m_secondary">LEARN MORE</button>
+					</a>
 				</div>
 			</div>
 			<button class="anchor_btn">
@@ -44,7 +48,7 @@
 			</button>
 		</div>
 	</section>
-	<section class="section_2">
+	<section class="section_2" id="learnMore">
 		<div class="m_width">
 			<div class="section_2_content">
 				<img src="./img/glasses1.png">
@@ -94,15 +98,23 @@
 	<section class="section_4">
 			<div class="section_4_left">
 				<div class="lines">
-					<div class="line"></div>
-					<div class="line middle"></div>
-					<div class="line"></div>
+					<div id="line_first"></div>
+					<div id="line_second"></div>
+					<div id="line_third"></div>
 				</div>
 				<h2>OUR SERVICES</h2>
 				<div class="text_container container1">
 					<h3>WEB DESIGN</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
-					<button>
+					<button id="first_btn"
+						onmouseover="
+							line_first.style.background = '#e74c3c';
+							line_first.style.opacity = '1';
+							line_first.style.transform = 'scaleX(1.2)'"
+						onmouseleave="
+							line_first.style.background = '#999999';
+							line_first.style.opacity = '0.25';
+							line_first.style.transform = ''">
 						<div class="button_inner">
 							<img src="./svg/comp.svg">
 						</div>
@@ -111,7 +123,15 @@
 				<div class="text_container container2">
 					<h3>PRINT DESIGN</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
-					<button>
+					<button id="second_btn"
+						onmouseover="
+							line_second.style.background = '#e74c3c';
+							line_second.style.opacity = '1';
+							line_second.style.transform = 'scaleX(1.2)'"
+						onmouseleave="
+							line_second.style.background = '#999999';
+							line_second.style.opacity = '0.25';
+							line_second.style.transform = ''">
 						<div class="button_inner">
 							<img src="./svg/paper.svg">
 						</div>
@@ -120,7 +140,15 @@
 				<div class="text_container container3">
 					<h3>PHOTOGRAPHY</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum has been the industry's standard dummy text ever.</p>
-					<button>
+					<button id="third_btn"
+						onmouseover="
+							line_third.style.background = '#e74c3c';
+							line_third.style.opacity = '1';
+							line_third.style.transform = 'scaleX(1.2)'"
+						onmouseleave="
+							line_third.style.background = '#999999';
+							line_third.style.opacity = '0.25';
+							line_third.style.transform = ''">
 						<div class="button_inner">
 							<img src="./svg/foto.svg">
 						</div>
@@ -536,25 +564,33 @@
 				</div>
 				<form class="form">
 					<label for="name" id="lab1">Name</label>
-					<input type="text" name="name" id="name">
+					<input type="text" name="name" id="name"
+						onfocus="lab1.style.color = '#e74e3e'"
+						onblur="lab1.style.color = '#999999'">
 					<hr>
-					<label for="email">Email</label>
-					<input type="text" name="email" id="email">
+					<label for="email" id="lab2">Email</label>
+					<input type="text" name="email" id="email"
+						onfocus="lab2.style.color = '#e74e3e'"
+						onblur="lab2.style.color = '#999999'">
 					<hr>
-					<label for="subject">Subject</label>
-					<input type="text" name="subject" id="subject">
+					<label for="subject" id="lab3">Subject</label>
+					<input type="text" name="subject" id="subject"
+						onfocus="lab3.style.color = '#e74e3e'"
+						onblur="lab3.style.color = '#999999'">
 					<hr id="third_hr">
-					<label for="textarea">Message</label>
-					<textarea id="textarea"></textarea>
+					<label for="textarea" id="lab4">Message</label>
+					<textarea id="textarea"
+						onfocus="lab4.style.color = '#e74e3e'"
+						onblur="lab4.style.color = '#999999'"></textarea>
 					<button>SEND MESSAGE</button>
-					<script type="text/javascript">
+					<!-- <script type="text/javascript">
 						name.onfocus(() => console.log('ok'));
-					</script>
+					</script> -->
 				</form>
 			</div>
 		</div>
 	</section>
-	<section class="section_13">
+	<section id="getStarted" class="section_13">
 		<h2>Let's Get Started Now. <span>It's FREE!</span></h2>
 		<p>30 day free trial. Free plan allows up to 2 projects. Pay if you need more. Cancel anytime. No catches.</p>
 		<button>START FREE TRIAL</button>

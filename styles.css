@@ -223,7 +223,8 @@ BLOCK 2
 ============================*/
 
 .section_2 {
-	padding: 124px 120px 100px;
+	padding: 84px 120px 100px;
+	margin-top: 40px;
 	min-height: 433px;
 	border-bottom: 1px solid #e6e7eb;
 }
@@ -376,18 +377,18 @@ BLOCK 2
 	transform: translateY(-50%);
 }
 
-.line {
+.lines div {
 	height: 34px;
 	width: 2px;
 	background: #999999;
 	opacity: 0.25;
 }
 
-.line.middle {
+#line_second {
 	margin: 11px 0px;
-	transform: scaleX(1.2);
+	/*transform: scaleX(1.2);
 	background: #e74c3c;
-	opacity: 1;
+	opacity: 1;*/
 }
 
 
@@ -424,6 +425,11 @@ BLOCK 2
 	right: -116px;
 	border: none;
 	padding: 4px;
+	cursor: pointer;
+}
+
+.text_container button:hover {
+	background: #e74c3c;
 }
 
 .button_inner {
@@ -577,14 +583,9 @@ BLOCK 2
 	margin: 0 20px;
 }
 
-#checked_link {
-	color: #e64b3c;
-	font-weight: 700;
-}
-
 .section_5_nav a:hover {
 	color: #e64b3c;
-	font-weight: 700;
+	text-shadow: 0 0 2px #e64b3c;
 }
 
 /*=============================================
@@ -1463,7 +1464,7 @@ SECTION 12 CONTACT US
 }
 
 .form input {
-	width: 85%;
+	width: calc(100% - 65px);
 	background: transparent;
 	border: none;
 	outline: none;
