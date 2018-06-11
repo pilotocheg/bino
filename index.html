@@ -628,10 +628,23 @@
 			</footer>
 		</div>
 	</section>
-	<a href="#home">
 		<button id="return_btn">
 			<img src="./img/btn_arrow.png">
 		</button>
-	</a>
+	<script type="text/javascript">
+		window.onscroll = function() {
+			if (window.pageYOffset > 600) {
+				return_btn.style.display = 'block';
+			} else {
+				return_btn.style.display = 'none';
+			}
+		};
+		return_btn.addEventListener('click', () => {
+			window.scrollTo({
+				top: 0,
+				behavior: "smooth"
+			});
+		});
+	</script>
 </body>
 </html>

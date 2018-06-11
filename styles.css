@@ -1636,6 +1636,7 @@ footer {
 	outline: none;
 	cursor: pointer;
 	z-index: 5;
+	display: none;
 }
 
 #return_btn img {
